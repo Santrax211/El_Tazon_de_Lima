@@ -41,11 +41,14 @@ td {
     padding: 10px;
 }
 
+
+
 .input-field {
     width: calc(80% - 20px);
     padding: 10px;
     border: 1px solid #0a0909;
     border-radius: 7px;
+    margin-bottom: 5px;
 }
 
 .button-container {

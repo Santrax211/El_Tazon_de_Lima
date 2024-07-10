@@ -1,0 +1,48 @@
+.mensaje-sistema {
+    width: 500px;  /* Ajusta el ancho según sea necesario */
+    height: 300px; /* Añadido para una altura fija */
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    padding: 30px; /* Incrementado para más espacio */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mensaje-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.mensaje-contenido img {
+    width: 70px;  /* Incrementado para más tamaño */
+    height: 70px; /* Incrementado para más tamaño */
+    margin-right: 20px; /* Incrementado para más espacio entre imagen y texto */
+}
+
+.mensaje-contenido strong {
+    display: block;
+    font-size: 1.3em; /* Incrementado para más tamaño de texto */
+}
+
+.mensaje-sistema button {
+    background-color: #cf53d5b2;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Incrementado para un botón más grande */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em; 
+    width: auto;
+    margin: 0 auto;
+}
+
+.mensaje-sistema button:hover {
+    background-color: #9b09b8;
+}

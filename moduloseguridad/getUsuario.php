@@ -1,7 +1,5 @@
-<?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+<?
+
 function validarbotons($boton)
 {
     return isset($boton);
@@ -24,11 +22,17 @@ if (validarbotons($_POST['btningresar'])) {
     } else {
     include_once("../shared/viewmensajesistema.php");
         $objMensaje = new viewmensajesistema();
-        $objMensaje->viewmensajesistemaShow("Los datos ingresados no son válidos", "<a href='../index.php'>Intente nuevamente </a>");
+        $objMensaje->viewmensajesistemaShow("Los datos ingresados no son válidos", 
+        "warning",
+        "Ir al inicio",
+        "../index.php");
     }
 } else {
     include_once("../shared/viewmensajesistema.php");
     $objMensaje = new viewmensajesistema();
-    $objMensaje->viewmensajesistemaShow("ACCESO DENEGADO", "<a href='../index.php'>Ir al inicio </a>");
+    $objMensaje->viewmensajesistemaShow("ACCESO DENEGADO", 
+    "forbidden",
+    "Ir al inicio",
+    "../index.php");
 }
 ?>

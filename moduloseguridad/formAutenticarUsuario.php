@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 include('./shared/vista.php');
 
@@ -35,13 +35,12 @@ class formAutenticarUsuario extends vista
             <tr>
                 <td></td>
                 <td colspan="2" class="forgot-password-container">
-                    <a href="#"> ¿Olvidaste tu contrasena?</a>
+                    <a href="moduloseguridad/formrestablecercontra.php"> ¿Olvidaste tu contrasena?</a>
                 </td>
             </tr>
         </table>
     </form>
     <?
-        $this->getfooter();
     }
 }
 ?>

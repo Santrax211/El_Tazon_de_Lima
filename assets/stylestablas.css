@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 20px;
+}
+
+header .logo {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin-left: 110px;
+    font-size: 24px;
+    color: #121212;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centrar contenido horizontalmente */
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 25px;
+    text-align: center;
+}
+
+table th {
+    background-color: #905df5be;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer .button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+footer .button:hover {
+    background-color: #e68900;
+}
